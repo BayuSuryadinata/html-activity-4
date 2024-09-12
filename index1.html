@@ -14,6 +14,8 @@
           font-family: "Inter", sans-serif;
           font-optical-sizing: auto;
           font-weight: 100px;
+          margin: 0;
+          padding: 0;
           font-style: normal;
         }
 
@@ -21,12 +23,12 @@
             width: 770px;
             margin: 0 auto;
             padding: 0px 15px;
-            background-color: bisque;
             display: flex;
+            box-shadow: 2px 2px 5px rgb(189, 189, 189);
+            border-radius: 10px;
         }
 
         .box1 {
-
             width: 50%;
             display: flex;
             align-items: center;
@@ -82,6 +84,106 @@
             font-weight: bold;
         }
 
+        .items2 {
+            display: flex;
+            align-items: center;
+            height: 20%;
+            gap: 80px;
+        }
+
+        .itemC {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .boxprofil1 img {
+            width: 35px;
+            border-radius: 360px;
+            display: flex;
+        }
+        .teks1 span {
+            font-size: 11px;
+            color: gray;
+            margin-top: px;
+        }
+
+        .teks1 p {
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .teks1 {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+
+        }
+        
+        .itemD{
+            display: flex;
+        }
+        .boxprofil2 img {
+            width: 35px;
+            border-radius: 360px;
+            display: flex;
+        }
+
+        .itemD {
+            gap: 4px;
+        }
+
+        .tekslorem p {
+            margin-top: 10px;
+        }
+
+        .boxth {
+            display: flex;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .date, .harga {
+            border: dashed gray 1px;
+            border-radius: 10px;
+            padding: 10px;
+            padding-right: 70px;
+            
+        }
+        
+        .date p, .harga p {
+            font-weight: bold;
+        }
+        
+        .date span, .harga span {
+            color: gray;
+        }
+
+        .profile img{
+            width: 30px;
+            border-radius: 360px;
+        }
+
+        .profile img:nth-of-type(2), :nth-of-type(3) {
+            margin-left: -10px;
+        }
+
+        .boxt {
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        .textlast {
+            color: rgb(0, 47, 255);
+        }
+
+        .tekslorem {
+            padding-left: 10px
+        }
+
+
     </style>
 </head>
 <body>
@@ -103,6 +205,51 @@
             </div>
 
             <div class="items2">
+                <div class="itemC">
+                    <div class="boxprofil1">
+                        <img src="profil-naruto.webp" alt="">
+                    </div>
+                    <div class="teks1">
+                        <span>Manager</span>
+                        <p>Uzumaki</p>
+                    </div>
+                 
+                </div>
+                <div class="itemD">
+                    <div class="boxprofil2">
+                        <img src="dolar.png" alt="">
+                    </div>
+                    <div class="teks1">
+                        <span>Budget</span>
+                        <p>$64.00</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="tekslorem">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, quia? Quas laborum, deserunt qui sapiente officia!</p>
+            </div>
+
+            <div class="boxth">
+                <div class="date">
+                    <p> Feb 6, 2021</p>
+                    <span> Due Date</span>
+                </div>
+                <div class="harga">
+                    <p>$284,900</p>
+                    <span>Budget</span>
+                </div>
+            </div>
+
+            <div class="boxt">
+                <div class="profile">
+                    <img src="profil-naruto.webp" alt="">
+                    <img src="dolar.png" alt="">
+                    <img src="profil-naruto.webp" alt="">
+                </div>
+                <div class="textlast">
+                    <p>View Project</p>
+                </div>
             </div>
         </div>
 

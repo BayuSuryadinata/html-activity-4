@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projek 4</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+
+        * {
+          font-family: "Inter", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 100px;
+          font-style: normal;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+
+        .profil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ftp img:nth-of-type(1) {
+            align-items: center;
+            width: 70px;
+            border-radius: 380%;
+            border: solid 3px greenyellow;
+        }
+
+        .profil p:first-of-type {
+            font-weight: bold;
+        }
+
+        .nickname {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        .nickname img {
+            width: 12px;
+        }
+
+        .ft {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: gray;
+        }
+        .ft div{
+            display: flex;
+            align-items: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 95% ;
+            margin-top: 40px;
+            border-bottom: solid 1px;
+            padding-bottom: 10px;
+        }
+
+        .nav1 a, .nav2 a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav1, .nav2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav1 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav2 {
+            display: flex;
+            gap: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profil">
+            <div class="ftp">
+                <img src="profil-naruto.webp" alt="">
+            </div>
+
+            <div class="nickname">
+                <p>Uzumaki Naruto</p>
+                <img src="checklist.png" alt="">
+            </div>
+            
+            <div class="ft">
+                <div><i class='bx bx-transfer-alt' ></i><span>KeenThemas</span></div>
+                <div><i class='bx bx-map'></i><span>Sf, Bay Are</span></div>
+                <div><i class='bx bx-envelope'></i><span>naruto@hokage.com</span></div>
+            </div>
+
+        </div>
+
+        <div class="nav">
+            <div class="nav1">
+                <div><a href="">Profiles</a><i class='bx bx-chevron-down' ></i></div>
+                <div><a href="">Project</a><i class='bx bx-chevron-down' ></i></div>
+                <div><a href="">Works</a></div>
+                <div><a href="">Teams</a></div>
+                <div><a href="">Network</a></div>
+                <div><a href="">Acivity</a></div>
+                <div><a href="">More</a><i class='bx bx-chevron-down' ></i></div>
+            </div>
+            <div class="nav2">
+                <div><a href=""><button><i class='bx bx-group' ></i>Connect</button></a></div>
+                <div><a href=""><button><i class='bx bx-chat' ></i></button></a></div>
+                <div class="ba"><a href=""><button><i class='bx bx-dots-vertical-rounded' ></i></button></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
