@@ -55,6 +55,8 @@
             justify-content: space-between;
             width: 90%;
             margin-top: -10px;
+            padding-top: 3px;
+            align-items: center;
 
         }
 
@@ -77,10 +79,6 @@
             gap: 10px;
         }
 
-        .boxB p:nth-of-type(2) {
-            padding-bottom: 3px;
-        }
-
         .boxB p{
             color: gray;
             font-size: 12px;
@@ -93,6 +91,24 @@
         .boxA p {
             color: gray;
         }
+
+        .like, .comment {
+            display: flex;
+            align-items: center;
+            gap: 3px
+        }
+
+        .boxB {
+            border: ;
+        }
+
+        .comment span:first-of-type{
+            padding-top: 1px;
+        }
+
+        .boxA i, .boxB i {
+            color: gray;
+        } 
     </style>
 </head>
 <body>
@@ -114,6 +130,11 @@
                 <div class="like">
                     <i class='bx bxs-heart'></i>
                     <span>23</span>
+                </div>
+
+                <div class="comment">
+                    <i class='bx bx-chat'></i>
+                    <span> 64</span>
                 </div>
                 
 
