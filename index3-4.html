@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,22 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
-    <style>
 
+    <style>
         * {
-          font-family: "Inter", sans-serif;
-          font-optical-sizing: auto;
-          font-weight: 100px;
-          font-style: normal;
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 100px;
+            font-style: normal;
         }
+
         .container {
             width: 100%;
-            max-width: 1200px;
+            max-width: 1300px;
             margin: auto;
             padding-left: 20px;
             padding-right: 20px;
@@ -54,7 +57,7 @@
             align-items: center;
             gap: 3px;
         }
-        
+
         .nickname img {
             width: 12px;
         }
@@ -66,26 +69,30 @@
             gap: 10px;
             color: gray;
         }
-        .ft div{
+
+        .ft div {
             display: flex;
             align-items: center;
         }
+
         .nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 95% ;
+            width: 95%;
             margin-top: 40px;
             border-bottom: solid 1px;
             padding-bottom: 10px;
         }
 
-        .nav1 a, .nav2 a{
+        .nav1 a,
+        .nav2 a {
             text-decoration: none;
             color: black;
         }
 
-        .nav1, .nav2 {
+        .nav1,
+        .nav2 {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -101,9 +108,183 @@
             gap: 10px;
         }
 
+        button {
+            all: unset;
+            height: 30px;
+        }
 
+        .group {
+            padding-left: 8px;
+            padding-right: 8px;
+            border: solid 1px;
+            border-radius: 5px;
+        }
+
+        .email,
+        .dot {
+            border: solid 1px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            align-items: center;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bot {
+            display: flex;
+            background-color: rgb(236, 236, 236);
+            gap: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 5px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title h1 {
+            font-size: 24px;
+        }
+
+        .title {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn1 {
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .btn2 {
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 5px;
+        }
+
+        .konten {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .konten {
+            width: 100%;
+            gap: 30px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .card {
+            width: 386px;
+            height: 340px;
+            margin-top: 20px;
+            box-shadow: 2px 2px 5px gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .box1{
+            width: 100%;
+            height: 80%;
+        }
+
+        .box1 img {
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .box2 {
+            display: flex;
+            width: 90%;
+            margin-top: -18px;
+            margin-bottom: -4px;
+            font-weight: bold;
+        }
+
+        .box3 {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin-top: -10px;
+            padding-top: 3px;
+            align-items: center;
+
+        }
+
+        .boxA img {
+            width: 24px;
+            border-radius: 360px;
+        }
+
+        .boxA {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .boxB {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .boxB p{
+            color: gray;
+            font-size: 12px;
+        }
+
+        .boxB span {
+            font-size: 12px;
+        }
+
+        .boxA p {
+            color: gray;
+        }
+
+        .like, .comment {
+            display: flex;
+            align-items: center;
+            gap: 3px
+        }
+
+        .boxB {
+            border: ;
+        }
+
+        .comment span:first-of-type{
+            padding-top: 1px;
+        }
+
+        .boxA i, .boxB i {
+            color: gray;
+        } 
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="profil">
@@ -115,9 +296,9 @@
                 <p>Uzumaki Naruto</p>
                 <img src="checklist.png" alt="">
             </div>
-            
+
             <div class="ft">
-                <div><i class='bx bx-transfer-alt' ></i><span>KeenThemas</span></div>
+                <div><i class='bx bx-transfer-alt'></i><span>KeenThemas</span></div>
                 <div><i class='bx bx-map'></i><span>Sf, Bay Are</span></div>
                 <div><i class='bx bx-envelope'></i><span>naruto@hokage.com</span></div>
             </div>
@@ -126,20 +307,220 @@
 
         <div class="nav">
             <div class="nav1">
-                <div><a href="">Profiles</a><i class='bx bx-chevron-down' ></i></div>
-                <div><a href="">Project</a><i class='bx bx-chevron-down' ></i></div>
+                <div><a href="">Profiles</a><i class='bx bx-chevron-down'></i></div>
+                <div><a href="">Project</a><i class='bx bx-chevron-down'></i></div>
                 <div><a href="">Works</a></div>
                 <div><a href="">Teams</a></div>
                 <div><a href="">Network</a></div>
                 <div><a href="">Acivity</a></div>
-                <div><a href="">More</a><i class='bx bx-chevron-down' ></i></div>
+                <div><a href="">More</a><i class='bx bx-chevron-down'></i></div>
             </div>
             <div class="nav2">
-                <div><a href=""><button><i class='bx bx-group' ></i>Connect</button></a></div>
-                <div><a href=""><button><i class='bx bx-chat' ></i></button></a></div>
-                <div class="ba"><a href=""><button><i class='bx bx-dots-vertical-rounded' ></i></button></a></div>
+                <div class="group"><button><i class='bx bx-group'></i>Connect</button></div>
+                <div class="email"><button><i class='bx bx-chat'></i></button></div>
+                <div class="dot"><button><i class='bx bx-dots-vertical-rounded'></i></button></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                <h1>8 Works</h1>
+                <div class="bot">
+                    <div class="btn1"><button><img src="anu.png" alt=""></button></div>
+                    <div class="btn2"><button><img src="anuu.png" alt=""></button></div>
+                </div>
+            </div>
+
+            <div class="konten">
+                <div class="card">
+                    <div class="box1">
+                        <img src="sosmed.jpg.jpg" alt="">
+                    </div>
+
+                    <div class="box2">
+                        <p>Urban Dreams</p>
+                    </div>
+
+                    <div class="box3">
+                        <div class="boxA">
+                            <img src="profil-naruto.webp" alt="">
+                            <p>Uzumaki Jokowi</p>
+                        </div>
+                        <div class="boxB">
+                            <div class="like">
+                                <i class='bx bxs-heart'></i>
+                                <span>23</span>
+                            </div>
+
+                            <div class="comment">
+                                <i class='bx bx-chat'></i>
+                                <span> 64</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box1">
+                        <img src="sosmed.jpg.jpg" alt="">
+                    </div>
+
+                    <div class="box2">
+                        <p>Urban Dreams</p>
+                    </div>
+
+                    <div class="box3">
+                        <div class="boxA">
+                            <img src="profil-naruto.webp" alt="">
+                            <p>Uzumaki Jokowi</p>
+                        </div>
+                        <div class="boxB">
+                            <div class="like">
+                                <i class='bx bxs-heart'></i>
+                                <span>23</span>
+                            </div>
+
+                            <div class="comment">
+                                <i class='bx bx-chat'></i>
+                                <span> 64</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box1">
+                        <img src="sosmed.jpg.jpg" alt="">
+                    </div>
+
+                    <div class="box2">
+                        <p>Urban Dreams</p>
+                    </div>
+
+                    <div class="box3">
+                        <div class="boxA">
+                            <img src="profil-naruto.webp" alt="">
+                            <p>Uzumaki Jokowi</p>
+                        </div>
+                        <div class="boxB">
+                            <div class="like">
+                                <i class='bx bxs-heart'></i>
+                                <span>23</span>
+                            </div>
+
+                            <div class="comment">
+                                <i class='bx bx-chat'></i>
+                                <span> 64</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box1">
+                        <img src="sosmed.jpg.jpg" alt="">
+                    </div>
+
+                    <div class="box2">
+                        <p>Urban Dreams</p>
+                    </div>
+
+                    <div class="box3">
+                        <div class="boxA">
+                            <img src="profil-naruto.webp" alt="">
+                            <p>Uzumaki Jokowi</p>
+                        </div>
+                        <div class="boxB">
+                            <div class="like">
+                                <i class='bx bxs-heart'></i>
+                                <span>23</span>
+                            </div>
+
+                            <div class="comment">
+                                <i class='bx bx-chat'></i>
+                                <span> 64</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="konten1">
+                    <div class="card">
+                        <div class="box1">
+                            <img src="sosmed.jpg.jpg" alt="">
+                        </div>
+    
+                        <div class="box2">
+                            <p>Urban Dreams</p>
+                        </div>
+    
+                        <div class="box3">
+                            <div class="boxA">
+                                <img src="profil-naruto.webp" alt="">
+                                <p>Uzumaki Jokowi</p>
+                            </div>
+                            <div class="boxB">
+                                <div class="like">
+                                    <i class="bx bxs-heart"></i>
+                                    <span>23</span>
+                                </div>
+    
+                                <div class="comment">
+                                    <i class="bx bx-chat"></i>
+                                    <span> 64</span>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="konten1">
+                    <div class="card">
+                        <div class="box1">
+                            <img src="sosmed.jpg.jpg" alt="">
+                        </div>
+    
+                        <div class="box2">
+                            <p>Urban Dreams</p>
+                        </div>
+    
+                        <div class="box3">
+                            <div class="boxA">
+                                <img src="profil-naruto.webp" alt="">
+                                <p>Uzumaki Jokowi</p>
+                            </div>
+                            <div class="boxB">
+                                <div class="like">
+                                    <i class="bx bxs-heart"></i>
+                                    <span>23</span>
+                                </div>
+    
+                                <div class="comment">
+                                    <i class="bx bx-chat"></i>
+                                    <span> 64</span>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="konten1"></div>
+                <div class="konten1"></div>
+                <div class="konten1"></div>
+                <div class="konten1"></div>
+                <div class="konten1"></div> -->
             </div>
         </div>
     </div>
 </body>
+
 </html>
